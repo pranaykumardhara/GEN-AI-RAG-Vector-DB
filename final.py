@@ -28,7 +28,7 @@ COLLECTION_NAME = 'title'  # Collection name
 DIMENSION = 1536  # Embeddings size
 COUNT = 100  # How many titles to embed and insert.
 OPENAI_ENGINE = 'text-embedding-ada-002'  # Which engine to use
-openai.api_key = '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'  # Use your own Open AI API Key here
+openai.api_key = ''  # Use your own Open AI API Key here
 
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
@@ -209,6 +209,7 @@ def main():
 if __name__ == "__main__":
     main()
     pass
+
 
 
 
